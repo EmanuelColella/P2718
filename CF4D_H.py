@@ -34,3 +34,4 @@ for x1 in range(0,nx):
         for x2 in range(0,nx):
             for y2 in range(0,ny):
                 R1[x1,y1,x2,y2]=torch.mean(torch.squeeze(CF[x1,y1,x2,y2,:]))
+Hy_R1=R1
